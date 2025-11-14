@@ -4,16 +4,12 @@ using UnityEngine;
 
 public class PlayerDeadState : BasePlayerState
 {
-    private Animator animator;
-    public PlayerDeadState(Player player) : base(player)
-    {
-        animator = player.GetComponent<Animator>();
-    }
+    public PlayerDeadState(Player player) : base(player) { }
 
     public override void Enter()
     {
-        animator.SetTrigger("Die");
         player.HidePlayerHood(true);
+        player.playerBody.gameObject.SetActive(false);
 
         player.canMove = false;
         player.canShoot = false;

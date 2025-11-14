@@ -154,7 +154,7 @@ public class Enemy : MonoBehaviour
             Vector2 dir = (wanderPoint - transform.position).normalized;
 
             if (dir.x != 0)
-                transform.FlipTowards(dir.x);
+                enemyBody.FlipTowards(dir.x);
 
             transform.position = Vector2.MoveTowards(
                 transform.position,
