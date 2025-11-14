@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3899e66e50f14e14d9b6f4ad498b4519, type: 3}
+  m_Name: 4_leftLeg
+  m_EditorClassIdentifier: 
+  Id: 4
+  DisplayName: MonsterLeftLeg
+  Icon: {fileID: -9148595311541827109, guid: eb12f7bfac0d77046905ee79ff5c9e44, type: 3}
+  Stackable: 1
+  MaxStack: 32
